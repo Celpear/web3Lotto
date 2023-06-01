@@ -35,8 +35,6 @@ function payout(){
     
 }
 
-
-//Healper
 function startEventListener(){
     var event = contract.events.UpdateWinner(function(error, result) {
         if (!error){
