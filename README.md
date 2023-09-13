@@ -10,8 +10,26 @@ Before running the application, make sure you have [Flutter](https://flutter.dev
 
 1. Clone this repository to your local machine:
 
+#### Fast build and run:
+
+HTTPS:
+```bash
+git clone https://github.com/Celpear/web3Lotto.git && cd web3Lotto && yarn && yarn dev
+```
+SSH:
+```bash
+git clone git@github.com:Celpear/web3Lotto.git && cd web3Lotto && yarn && yarn dev
+```
+
+#### Or do it manually:
+
+HTTPS:
 ```bash
 git clone https://github.com/Celpear/web3Lotto.git
+```
+SSH:
+```bash
+git clone git@github.com:Celpear/web3Lotto.git
 ```
 
 2. Navigate to the project directory:
