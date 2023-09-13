@@ -32,7 +32,9 @@ Latest commit 47c0723 last month
  24 contributors
 @gspencergoog@jonahwilliams@xster@jmagman@christopherfujino@mravn-google@hlwhl@goderbauer@cbracken@yjbanov@timsneath@sigurdm
 133 lines (120 sloc)  2.56 KB
- 
+
+# Yarn Stuff
+node_modules/
 
 # Miscellaneous
 *.class

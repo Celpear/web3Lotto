@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.purple,
       ),
-      home: LottoPage(),
+      home: const LottoPage(),
     );
   }
 }
@@ -73,20 +73,20 @@ class _LottoPageState extends State<LottoPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("CCN-Lotto")),
+      appBar: AppBar(title: const Text("Web3-Lotto")),
       body: login
           ? SingleChildScrollView(
               child: Column(
                 children: [
                   Container(
-                    padding: EdgeInsets.only(top: 50),
+                    padding: const EdgeInsets.only(top: 50),
                     child: Center(
                       child: Card(
                         child: Container(
-                          padding: EdgeInsets.all(30),
+                          padding: const EdgeInsets.all(30),
                           child: Text(
                             "${((pot / 1000000000000000000) * 1757.54).toStringAsFixed(2)}€",
-                            style: TextStyle(fontSize: 30),
+                            style: const TextStyle(fontSize: 30),
                           ),
                         ),
                       ),
@@ -109,23 +109,6 @@ class _LottoPageState extends State<LottoPage> {
                           },
                         )),
                   ),
-                  false
-                      ? Container(
-                          width: MediaQuery.of(context).size.width < 600
-                              ? MediaQuery.of(context).size.width
-                              : 600,
-                          padding: const EdgeInsets.only(
-                              left: 10, right: 10, bottom: 5, top: 5),
-                          child: Card(
-                              color: Colors.red,
-                              child: TextButton(
-                                child: const Text("Payout"),
-                                onPressed: () {
-                                  js.context.callMethod('payout', []);
-                                },
-                              )),
-                        )
-                      : SizedBox()
                 ],
               ),
             )

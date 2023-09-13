@@ -1,20 +1,63 @@
-# web3Lotto
+# Web3 Lotto Demo
+
+This repository contains a demo of a Web3-based lottery application. Users can participate in the lottery by following the simple instructions below.
+
+## Prerequisites
+
+Before running the application, make sure you have [Flutter](https://flutter.dev/) installed on your machine.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+1. Clone this repository to your local machine:
 
-A few resources to get you started if this is your first Flutter project:
+```bash
+git clone https://github.com/Celpear/web3Lotto.git
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+2. Navigate to the project directory:
+```bash
+cd web3Lotto
+```
+3. Install project dependencies using [Yarn](https://classic.yarnpkg.com/):
+```bash
+yarn
+```
+## Development
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+To start the development server and run the application locally, use the following command:
+```bash
+yarn dev
+```
+This will start a development server, and you can access the application in your web browser if you choose a web browser as target.
 
-Run the application in web.
+## Building
+
+To build the project for production, you can use the following command:
+```bash
+yarn build
+```
+This will generate a production-ready build of the application.
+
+## Cleaning
+
+To clean the project and remove any generated build files, use the following command:
+```bash
+yarn clean_project
+```
+This will remove the build artifacts and clean the project directory.
+
+## For comprehensibility
+
+In the "js_scripts/" directory, you will find all the JavaScript files that end up as minified files in the web folder during the build process. Therefore, make changes only to these files, as the "web/contract_connector_min.js" file will be overwritten during the project build with the JavaScript files from the js_scripts directory.
+
+## Contributing
+
+If you'd like to contribute to this project, please open an issue or create a pull request. We welcome your contributions!
+
+## Important!
 
 The application only works with MetaMask on the Sepolia Ethereum Test Network!
 
-Deploy smart_contract/lotto.sol via https://remix.ethereum.org/ and MetaMask.
+Be careful when you deploy it on the mainnet. I am not liable for any damage or financial loss!
+
+Deploy "smart_contract/lotto.sol" via https://remix.ethereum.org/ and MetaMask.
