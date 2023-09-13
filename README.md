@@ -4,7 +4,7 @@ This repository contains a demo of a Web3-based lottery application. Users can p
 
 ## Prerequisites
 
-Before running the application, make sure you have [Flutter](https://flutter.dev/) installed on your machine.
+Before running the application, make sure you have [Flutter](https://docs.flutter.dev/get-started/install) installed on your machine.
 
 ## Getting Started
 
