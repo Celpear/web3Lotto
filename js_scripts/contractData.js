@@ -84,7 +84,8 @@
             "stateMutability": "view",
             "type": "function"
         }
-    ]; // ersetze ... durch den Inhalt deiner ABI-Datei
+    ];
+    //Global Vals
     const contractAddress = '0xFEA49e192851f2a6240422Ac2c561E1d73ED2cED'
     var contract;
     var myAddress;
