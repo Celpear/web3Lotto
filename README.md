@@ -60,4 +60,4 @@ The application only works with MetaMask on the Sepolia Ethereum Test Network!
 
 Be careful when you deploy it on the mainnet. I am not liable for any damage or financial loss!
 
-Deploy smart_contract/lotto.sol via https://remix.ethereum.org/ and MetaMask.
+Deploy "smart_contract/lotto.sol" via https://remix.ethereum.org/ and MetaMask.
