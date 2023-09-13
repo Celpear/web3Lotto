@@ -6,6 +6,13 @@ This repository contains a demo of a Web3-based lottery application. Users can p
 
 Before running the application, make sure you have [Flutter](https://docs.flutter.dev/get-started/install) installed on your machine.
 
+Check if flutter is available as environment variable before you continue.
+
+```bash
+flutter --version
+```
+Returns Flutter Version.
+
 ## Getting Started
 
 1. Clone this repository to your local machine:
