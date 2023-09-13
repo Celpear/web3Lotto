@@ -46,6 +46,10 @@ yarn clean_project
 ```
 This will remove the build artifacts and clean the project directory.
 
+## For comprehensibility
+
+In the "js_scripts/" directory, you will find all the JavaScript files that end up as minified files in the web folder during the build process. Therefore, make changes only to these files, as the "web/contract_connector_min.js" file will be overwritten during the project build with the JavaScript files from the js_scripts directory.
+
 ## Contributing
 
 If you'd like to contribute to this project, please open an issue or create a pull request. We welcome your contributions!
