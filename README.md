@@ -23,6 +23,7 @@ cd web3Lotto
 yarn
 ```
 ## Development
+To use the dApp, you need to install and set up a [MetaMask](https://metamask.io/download/) wallet as a Chrome Extension and choose the Sepolia Ethereum Test Network.  
 
 To start the development server and run the application locally, use the following command:
 ```bash
@@ -48,7 +49,7 @@ This will remove the build artifacts and clean the project directory.
 
 ## For comprehensibility
 
-In the "js_scripts/" directory, you will find all the JavaScript files that end up as minified files in the web folder during the build process. Therefore, make changes only to these files, as the "web/contract_connector_min.js" file will be overwritten during the project build with the JavaScript files from the js_scripts directory.
+In the "js_scripts/" directory, you will find all the JavaScript files that end up as minified files in the web folder during the build process. Therefore, make changes only to these files, as the "web/contract_connector_min.js" file will be overwritten during the project build with the JavaScript files from the "js_scripts/" directory.
 
 ## Contributing
 
