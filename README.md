@@ -28,7 +28,7 @@ To start the development server and run the application locally, use the followi
 ```bash
 yarn dev
 ```
-This will start a development server, and you can access the application in your web browser at `http://localhost:3000`.
+This will start a development server, and you can access the application in your web browser if you choose a web browser as target.
 
 ## Building
 
