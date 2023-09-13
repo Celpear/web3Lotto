@@ -4,7 +4,7 @@
   "description": "bundle js scripts",
   "scripts": {
     "comprimize_js":"npx terser js_scripts/*.js -o web/contract_connector_min.js",
-    "dev": "yarn comprimize_js && flutter run",
+    "dev": "flutter pub get && yarn comprimize_js && flutter run",
     "clean_project":"rm -r -f web/contract_connector_min.js && flutter clean && flutter pub get && yarn build",
     "build": "yarn comprimize_js && flutter build web"
 },
